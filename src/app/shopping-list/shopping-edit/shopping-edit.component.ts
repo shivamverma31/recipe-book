@@ -6,10 +6,10 @@ import { Component} from '@angular/core';
   styleUrls: ['./shopping-edit.component.css']
 })
 export class ShoppingEditComponent{
-username:string='';
-onClick(){
-  this.username='';
-}
+// username:string='';
+// onClick(){
+//   this.username='';
+// }
 }
 
 
