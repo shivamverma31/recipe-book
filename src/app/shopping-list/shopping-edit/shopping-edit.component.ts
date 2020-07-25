@@ -7,8 +7,8 @@ import { Ingredient } from 'src/app/shared/ingredient.model';
   styleUrls: ['./shopping-edit.component.css']
 })
 export class ShoppingEditComponent{
-@ViewChild('nameInfo',{static:false}) nameInfoRef : ElementRef;
-@ViewChild('amountInfo',{static:false}) amountInfoRef : ElementRef;
+@ViewChild('nameInfo') nameInfoRef : ElementRef;
+@ViewChild('amountInfo') amountInfoRef : ElementRef;
 @Output() ingredientInfo = new EventEmitter<Ingredient>();
 
   addItem(){
